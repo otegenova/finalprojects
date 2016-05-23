@@ -1,0 +1,234 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-color: #8B7B8B ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#cont{
+	margin-right: 90px;
+	margin-bottom: 60px;
+	margin-top: 100px;
+}
+
+#name{
+	display: block;
+	font-style: italic;
+	background-color: rgba(0,0,0,.0);
+	color: #8B7B8B ;
+	width: 590px;
+	bottom:0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 150%;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+#content_container {
+	margin-left:auto;
+	margin-right:auto;
+	width:650px;
+	height: 500px;
+	background-attachment: scroll;
+	background-color: white;
+	padding: 25px 25px 40px 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#content_containers{
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	height: 430px;
+	background-attachment: scroll;
+	background-color: white;
+	padding: 25px 25px 40px 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+#logo_image {
+	font-style: italic;
+	color: white;
+	height:50px;
+	float:left;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+
+.logo_word{
+	margin-top: 5px;
+	font-weight: bold;
+	width: 255px; 
+	color:white;
+	font-style: italic;
+	font-size: 250%;
+	text-align:center;
+	float:left;
+	background-color: rgba(0,0,0,.0);
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#top{
+	top: 0px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	width:100%;
+	height:50px;
+	background-color:rgba(0,0,0,.5) ;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+
+}
+
+#bottom {
+	font-style: italic;
+	color: white;
+	left: 0px;
+	right: 0px;
+	height:10px;
+	text-align: center;
+	padding: 20px;
+	background-color:rgba(0,0,0,.5) ;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+.first {
+	text-align: center;
+	font-style: italic;
+	font-size:18px;
+    background-color: rgba(0,0,0,.0);
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+button{
+	font-style: italic;
+}
+
+.dropdown {
+	margin-left:30px;
+	margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.second {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.9);
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.second a {
+	font-size: 17px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.second a:hover {
+	background-color: rgba(0,0,0,.6);
+	color: cyan;
+}
+
+
+.dropdown:hover .second {
+    display: block;
+}
+
+
+.dropdown:hover .first {
+	text-align: center;
+	font-style: italic;
+	color: cyan;
+    background-color: rgba(0,0,0,.0);
+}
+.first button{
+	font-style: italic;
+}
+
+.button {
+	width: 150px;
+	color:white;
+	font-style: italic;
+	font-size:17px;
+	margin-left:5px;
+	text-align:center;
+	float:left;
+	background-color: rgba(0,0,0,.0);
+	text-decoration: none;
+	height: 35px;
+	padding-top: 15px;
+	margin-right: 20px;
+}
+
+
+.button:visited {
+	text-decoration:none;
+}
+
+.button:hover {
+	text-decoration:none;
+	color: cyan;
+}
+
+
+
+#header{
+	float: left;
+	top:0px;
+	width:300px;
+	margin-right:10px;
+}
+
+#prep {
+	font-style: italic;
+	font-size:15px;
+	color:#333333;
+	width:500px;
+}
+
+#Servings {
+	font-size:12px;
+	color:#333333;
+	width:300px;
+	font-style: italic;
+}
+
+#Ingredients {
+	font-size:12px;
+	color:#000000;
+	width:300px;
+	font-style: italic;
+}
+
+.Preparation {
+	font-size:50px;
+	color:#000000;
+	width:500px;
+	font-style: italic;
+	text-align: center;
+}
+b{
+	color: #36BBCE;
+
+}
+ #img1{
+	width:650px; 
+	height:500px;
+}
